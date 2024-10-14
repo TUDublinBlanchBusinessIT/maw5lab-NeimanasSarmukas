@@ -1,11 +1,15 @@
-import { StyleSheet, View, Image, Dimensions } from 'react-native';
+import { StyleSheet, View, Image, Dimensions, Switch } from 'react-native';
 import Swiper from 'react-native-swiper';
 import MovieBooking from './components/MovieBooking';
 import PersonalInfo from './components/PersonalInfo';
 
+import {useState} from 'react';
+
 
 export default function App() {
   
+  const[balcony, setbalcony] = useState(fasle)
+
   return (
     <View style={styles.screencontainer}>
       <View style={styles.imgview}><Image source={require('./assets/gladiator.jpg')}/></View>
