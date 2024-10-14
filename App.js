@@ -1,6 +1,7 @@
 import { StyleSheet, View, Image, Dimensions } from 'react-native';
 import Swiper from 'react-native-swiper';
-import MovieBooking from './components/PersonalInfo';
+import MovieBooking from './components/MovieBooking';
+import PersonalInfo from './components/PersonalInfo';
 
 
 export default function App() {
