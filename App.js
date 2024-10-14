@@ -8,7 +8,7 @@ export default function App() {
   
   return (
     <View style={styles.screencontainer}>
-      <View style={styles.imgview}><Image source={require('./assets/moviesV3.png')}/></View>
+      <View style={styles.imgview}><Image source={require('./assets/gladiator.jpg')}/></View>
       <Swiper showsButtons={true}>
           <PersonalInfo screenstyle={styles.screen}/>
           <MovieBooking screenstyle={styles.screen}/>
